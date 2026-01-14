@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0" stop-color="#05050a"/>
+      <stop offset="1" stop-color="#071125"/>
+    </linearGradient>
+    <pattern id="woven" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 20h40M20 0v40" stroke="#0b1220" stroke-width="0.6" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g2)" />
+  <rect width="100%" height="100%" fill="url(#woven)" opacity="0.28" />
+  <g opacity="0.7">
+    <circle cx="680" cy="40" r="80" fill="#6EE7FF" opacity="0.02" />
+    <circle cx="120" cy="420" r="60" fill="#C084FC" opacity="0.02" />
+  </g>
+</svg>
