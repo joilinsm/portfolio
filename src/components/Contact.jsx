@@ -16,7 +16,8 @@ export default function Contact(){
     if(!validate()){ setStatus({type:'error', msg:'Please enter valid details.'}); return }
     setStatus({type:'pending', msg:'Sending...'})
     try{
-      const res = await fetch('/api/contact', {
+      const apiUrl = process.env.NODE_ENV === 'development' ? 'http://localhost:4000' : ''
+      const res = await fetch(`${apiUrl}/api/contact`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form)
