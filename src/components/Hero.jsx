@@ -1,6 +1,7 @@
 import React, {useEffect, useRef} from 'react'
 import { gsap } from 'gsap'
 import heroAnim from '../assets/hero-anim.svg'
+import avatar from '../assets/PHOTO 1.jpg'
 
 export default function Hero(){
   const titleRef = useRef()
@@ -33,7 +34,9 @@ export default function Hero(){
         </div>
         <div className="flex items-center justify-center">
           <div className="card-glass w-80 h-80 rounded-2xl p-6 flex flex-col items-center justify-center" role="group" aria-label="Profile card">
-            <div ref={avatarRef} role="img" aria-label="Avatar: Joilin S M" className="w-28 h-28 rounded-full bg-gradient-to-br from-[#6EE7FF] to-[#C084FC] flex items-center justify-center text-black font-bold text-xl float-slow">Joilin S M</div>
+            <div ref={avatarRef} className="w-28 h-28 rounded-full bg-gradient-to-br from-[#6EE7FF] to-[#C084FC] flex items-center justify-center overflow-hidden float-slow">
+              <img src={avatar} alt="Joilin S M" className="w-full h-full object-cover" />
+            </div>
             <p className="mt-4 text-center text-sm text-gray-200">Final Year B.Tech <br/>(Computer Science & Business Systems) <br/>Class of 2026</p>
           </div>
         </div>

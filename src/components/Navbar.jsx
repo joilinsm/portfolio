@@ -24,7 +24,7 @@ export default function Navbar(){
       <div className="max-w-6xl mx-auto px-6 md:px-8 py-3 card-glass backdrop-blur-sm border-b border-gray-800">
         <nav className="flex items-center justify-between" role="navigation" aria-label="Main Navigation">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full flex items-center justify-center bg-gradient-to-br from-[#0ea5e9] to-[#7c3aed] text-black font-bold">JS</div>
+            <div className="w-10 h-10 rounded-full flex items-center justify-center bg-gradient-to-br from-[#0ea5e9] to-[#7c3aed] text-black font-bold">JSM</div>
             <div>
               <h1 className="text-xl text-gray-400 font-semibold">Joilin S M</h1>
               <p className="text-xs text-gray-400">Student | Tech & Management Enthusiast</p>
