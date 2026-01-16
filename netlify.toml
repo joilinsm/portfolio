@@ -9,7 +9,7 @@
 
 [[redirects]]
   from = "/api/*"
-  to = "https://joilin-portfolio-backend.onrender.com/api/:splat"
+  to = "https://joilin-protfolio-backend.onrender.com/api/:splat"
   status = 200
   force = false
 
